@@ -27,9 +27,7 @@ class BookRvAdapter(private val parent: AppCompatActivity) :
     override fun onCreateViewHolder(viewGroup: ViewGroup, viewType: Int): BookViewHolder {
         // Get the view binding object of custom list item layout
         val inflater = LayoutInflater.from(viewGroup.context)
-        val binding: BookListItemBinding = DataBindingUtil.inflate(inflater,
-            R.layout.book_list_item, viewGroup, false
-        )
+        val binding = BookListItemBinding.inflate(inflater, viewGroup, false)
         // Set the Lifecycle Owner of View binding to fragment
         binding.lifecycleOwner = parent
 
