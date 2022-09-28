@@ -18,6 +18,7 @@
 7. Retrofit2
 8. RecyclerView
 9. Dagger2
+10. Kotlin                                                                                                                                                 
 
 
 < Additional Infomation >
