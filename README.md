@@ -4,7 +4,7 @@
 [Image1 : Book title list parsing from Server JSON data]
 
 <div>
-<img src="https://github.com/DonggeunJung/MvvmRetrofitDaggerKotlin/blob/main/MvvmRetrofitDaggerKotlin_SS_01.png?raw=true width="200px"></img>
+<img src="https://github.com/DonggeunJung/MvvmRetrofitDaggerKotlin/blob/main/MvvmRetrofitDaggerKotlin_SS_01.png?raw=true width="150px"></img>
 </div>
 
 
