@@ -1,20 +1,12 @@
 package com.example.mvvmretrofitdaggerkt.model
 
-import com.example.mvvmretrofitdaggerkt.di.DaggerDiComponent
 import retrofit2.Call
 import retrofit2.Callback
 import retrofit2.Response
-import javax.inject.Inject
 import kotlin.coroutines.resume
 import kotlin.coroutines.suspendCoroutine
 
-class BookRepository {
-    @Inject
-    lateinit var api: BookApi
-
-    init {
-        DaggerDiComponent.builder().build().inject(this)
-    }
+class BookRepository(var api: BookApi) {
 
     suspend fun reqBooksFromServer(): List<Book>? {
         val call: Call<List<Book>> = api.books
