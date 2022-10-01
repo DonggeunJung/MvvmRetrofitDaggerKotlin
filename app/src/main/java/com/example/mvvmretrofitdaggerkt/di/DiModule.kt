@@ -2,7 +2,6 @@ package com.example.mvvmretrofitdaggerkt.di
 
 import com.example.mvvmretrofitdaggerkt.model.BookApi
 import com.example.mvvmretrofitdaggerkt.model.BookRepository
-import com.example.mvvmretrofitdaggerkt.viewmodel.ViewModelFactory
 import dagger.Module
 import dagger.Provides
 import javax.inject.Singleton
@@ -20,12 +19,6 @@ class DiModule {
     @Singleton
     fun provideBookRepository(api: BookApi): BookRepository {
         return BookRepository(api)
-    }
-
-    @Provides
-    @Singleton
-    fun provideViewModelFactory(bookRepository: BookRepository): ViewModelFactory {
-        return ViewModelFactory(bookRepository)
     }
 
 }
