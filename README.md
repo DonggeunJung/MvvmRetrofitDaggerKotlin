@@ -1,5 +1,5 @@
 # MvvmRetrofitDaggerKotlin
-[Android-Java] MVVM, RecyclerView, LiveData, Observer, DataBinding, Repository, Retrofit, Dagger example
+[Android-Kotlin] MVVM, RecyclerView, LiveData, Observer, DataBinding, Repository, Retrofit, Dagger example
 
 [Image1 : Book title list parsing from Server JSON data]
 
